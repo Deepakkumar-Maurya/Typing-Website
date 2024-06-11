@@ -17,25 +17,25 @@ const myArray = string.split(/\r?\n?\s/);
 
 console.log(myArray);
 
-function displayMsgFunction()
-{
-  let tempMsg
-  for (i = 0; i <= 80 ; i++)
-  {
-    let randomNumber = Math.floor(Math.random()*myArray.length);
-    tempMsg += " " +myArray[randomNumber];
-  }
-  return tempMsg;
-}
+// function displayMsgFunction()
+// {
+//   let tempMsg
+//   for (i = 0; i <= 80 ; i++)
+//   {
+//     let randomNumber = Math.floor(Math.random()*myArray.length);
+//     tempMsg += " " +myArray[randomNumber];
+//   }
+//   return tempMsg;
+// }
 
-tempMsg2 = displayMsgFunction();
+// tempMsg2 = displayMsgFunction();
 
 function loadParagraph() 
 {
 
   function displayMsgFunction()
     {
-      let tempMsg
+      let tempMsg = "";
       for (i = 0; i <= 50 ; i++)
       {
         let randomNumber = Math.floor(Math.random()*myArray.length);
