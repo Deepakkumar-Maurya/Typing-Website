@@ -36,10 +36,10 @@ function loadParagraph()
   function displayMsgFunction()
     {
       let tempMsg = "";
-      for (i = 0; i <= 50 ; i++)
+      for (i = 0; i <= 80 ; i++)
       {
         let randomNumber = Math.floor(Math.random()*myArray.length);
-        tempMsg += " " +myArray[randomNumber];
+        tempMsg += myArray[randomNumber] + " ";
       }
       return tempMsg;
     }
